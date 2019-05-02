@@ -25,7 +25,7 @@ ERROR 3: When connect honeypots to mhn-admin always return a failure message: co
          [$ sudo apt-get install software-properties-common -y] in mhn-honeypot ssh)
 
 ## Summary of data collected
-(Collection time: 5:42 PM 5/2/20190
+(Collection time: 5:42 PM 5/2/20190)
   ### TOP 5 Attacker IPs:
   1.  103.213.208.26 (366 attacks)
   2.  46.101.105.47 (196 attacks)
