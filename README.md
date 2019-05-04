@@ -16,11 +16,11 @@
   # GIF for MHN Admin Application
   <img src="MHN_Admin_Application.gif">
 
-## Any Issue Encoutered
+## Any Issue Encountered
 Configuration of mhn and vm instances actually took a lot of time but overall all the issues had been resolved.
-ERROR 1: Killed python initdatabase.py. Once run $ sudo supervisorctl status, only geoloc, honeymap, hpfeeds-broker                and mnemosyne are running. (solution: increase VM RAM to at least 1GB)
-ERROR 2: mhn-celery-worker do not running (solution: undate python version to 3.2.1 or higher in mhn-admin VM)
-ERROR 3: When connect honeypots to mhn-admin always return a failure message: connection time out. 
+1. ERROR 1: Killed python initdatabase.py. Once run $ sudo supervisorctl status, only geoloc, honeymap, hpfeeds-broker and mnemosyne are running. (solution: increase VM RAM to at least 1GB)
+2. ERROR 2: mhn-celery-worker do not running (solution: undate python version to 3.2.1 or higher in mhn-admin VM)
+3. ERROR 3: When connect honeypots to mhn-admin always return a failure message: connection time out. 
          (solution: check/rebuild mhn-admin and mhn-honeypot firewall. Also try to run [$ sudo apt-get update] and 
          [$ sudo apt-get install software-properties-common -y] in mhn-honeypot ssh)
 
